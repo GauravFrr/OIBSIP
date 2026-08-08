@@ -1,0 +1,5 @@
+# No external packages are strictly required since socket, threading, 
+# and tkinter are built-in libraries. 
+# We include tkinter-embed to ensure Tcl/Tk DLL support in virtual environments.
+
+tkinter-embed==3.12.0
